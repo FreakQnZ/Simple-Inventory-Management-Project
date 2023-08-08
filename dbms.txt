@@ -1,0 +1,9 @@
+/* Code to create database and its tables */
+
+create database inventory;
+
+use inventory;
+
+create table item (it_id int(10) not null auto_increment primary key, it_name varchar(20) not null);
+
+create table transactions (tr_id int(10) not null auto_increment primary key, tr_date date not null, tr_process char(1) not null,tr_qty float(10,2) not null, tr_itid int(10) not null);
