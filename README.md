@@ -1,5 +1,5 @@
 
-# Inventory-Management-DBMS-Project
+#Simple-Inventory-Management-Project
 
 Inventory Management Using python programming language and MySQL database.
 
