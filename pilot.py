@@ -56,7 +56,7 @@ def stock():
         print(i)
 
 import mysql.connector as sql
-con=sql.connect(host='localhost', user='root', password='root@123', database='inventory')
+con=sql.connect(host='localhost', user='[USERNAME]', password='[PASSWORD]', database='inventory')
 if con.is_connected():
     print("Connection to database is successful")
 cur=con.cursor()
